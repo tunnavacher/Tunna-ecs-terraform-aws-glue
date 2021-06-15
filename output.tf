@@ -1,3 +1,3 @@
-provider "aws" {
-  region = var.region_name
+output "crawler_id" {
+  value = aws_glue_crawler.crawler.id
 }
